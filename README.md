@@ -28,14 +28,14 @@ In this project, we aim to estimate student homework grades based on their inter
 #### d. Merging and Finalizing the Dataset
 - The processed conversation data and grades are merged based on the student codes.
 - This merged dataset is then used for further analysis, feature engineering, and model training.
-
+---
 ## 2. Feature Engineering
 
-### - 2.1 Provided Features
+### 2.1 Provided Features
 
 Initially, we included a variety of keywords like "error", "thank", "no", "next" and others as features, extracted from student chats with GPT-based tools. These were intended to reflect different aspects of student engagement and understanding. However, after thorough analysis, we found that some keywords were not strong indicators of academic performance and were actually contributing to increased model error. Consequently, we streamlined our feature set by dropping these less impactful keywords, focusing on those that more effectively predicted student grades.
 
-### - 2.2 Custom Features
+### 2.2 Custom Features
 
 #### :x: a. Number of Apologize Words
 
