@@ -61,6 +61,8 @@ In the context of our project, we decided to keep this feature in our model beca
 
 #### ✅ d. Average Prompt per Question
 
+The feature 'Average Prompt per Question' quantifies the average number of times students engaged with specific questions or prompts during their conversations with ChatGPT. After indentifying each prompt's cosine similarity to each question, the prompts are distributed to questions and average prompt per question is calculated. This information supplies insights to the model in a way that it shows how many prompts per each question results in better student grades. We decided to add this feature to our model because of its efficiency and its contribution to predicting performance of our model.
+
 
 #### :x: e. Prompt Ratio
 The main purpose of the feature “Prompt Ratio” was to capture the importance of the average number of prompts of each user by taking into account the prompt numbers of other users. This feature compares the average number of all the prompts with each user’s individual average number of prompts and demonstrates the relation. The idea behind this feature was that if the user’s average number of prompts differs from the total average number of promts, the probability that the user found the answer is getting lower in a similar ratio. When we examined the importance of this feature by introducing the graph of correlation of this feature with grade, we observed that the correlation is high. Although it seems that feature contributes to our model in a positive way, when we applied this feature to our model with other features, it increased the mean square error of the model. Thus, we didnt include this feature to our best model.
