@@ -2,7 +2,8 @@
 
 _by_
 _Alkım Özyüzer, Baturalp Arslan Kabadayı, Görkem Afşin, Deniz Özdemir, Nil Boyraz and Eren Özdil_
-Introduction
+
+### Introduction
 Welcome to our project repository! In this project, our aim was to develop a Machine Learning model to predict student homework grades based on their chat history with ChatGPT. We seeked to answer the question: Can we predict student homework grades based on their interactions with OpenAI's ChatGPT? 
 To answer this question, we come up with many features that can help to develop to the model so that we can precisly predict the homework grades. However, some features that we have tried was not succesfully; either have no correlation or despite hav,ng causation on the grades, some features were not successfull to lower the mean squared error. We decided to include them as well so that the steps that we took and how we progress throughout the project can be examined clearly. 
 Here in this repository you can find all the code, data and the steps we took while developing our model. Below, you'll find detailed explanations on datasets and their preparation, features, model trainings and evalutations. 
