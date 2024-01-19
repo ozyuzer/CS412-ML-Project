@@ -4,10 +4,10 @@ _by_
 _Alkım Özyüzer, Baturalp Arslan Kabadayı, Görkem Afşin, Deniz Özdemir, Nil Boyraz and Eren Özdil_
 
 ### Introduction
--Welcome to our project repository! In this project, our aim was to develop a machine learning model to predict student homework grades based on their chat history with ChatGPT. We seeked to answer the question: Can we predict student homework grades based on their interactions with OpenAI's ChatGPT? 
--In order to answer this question, we came up with many features that can help to develop the model so that we can precisely predict the homework grades. However, some features that we have tried was not succesfully; either have no correlation or some features were not successfull to lower the mean squared error. Despite having some features that managed to make the model a little more precise we decided not to include them. Our decision was based on the logic; Correlation does not necesseraly imply causation, especially on not so large datasets. 
-We decided to include them as well so that the steps that we took and how we progress throughout the project can be examined clearly. 
--Here in this repository you can find all the code, data and the steps we took while developing our model. Below, you'll find detailed explanations on datasets and their preparation, features, model trainings and evalutations. 
+Welcome to our project repository! In this project, our aim was to develop a machine learning model to predict student homework grades based on their chat history with ChatGPT. We seeked to answer the question: Can we predict student homework grades based on their interactions with OpenAI's ChatGPT?\ 
+In order to answer this question, we came up with many features that can help to develop the model so that we can precisely predict the homework grades. However, some features that we have tried was not succesfully; either have no correlation or some features were not successfull to lower the mean squared error. Despite having some features that managed to make the model a little more precise we decided not to include them. Our decision was based on the logic; Correlation does not necesseraly imply causation, especially on not so large datasets.\ 
+We decided to include them as well so that the steps that we took and how we progress throughout the project can be examined clearly.\ 
+Here in this repository you can find all the code, data and the steps we took while developing our model. Below, you'll find detailed explanations on datasets and their preparation, features, model trainings and evalutations. 
 ## 1. Reading the Data
 
 ### Overview
