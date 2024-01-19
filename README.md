@@ -119,7 +119,7 @@ In order to get the best results, we have wrote an automated script that would d
 - Best R2 Score: **63.494%**
 
 
-As it can be seen in the results, the best MSE score is achieved by using the most important 11 features. Thus, our final model only include these 11 features.
+As it can be seen in the results, the best MSE score is achieved by using the most important 11 features. Thus, our final model only includes these 11 features.
 
 ### 3.2. Tuning the Model
 Finally, we tried the tune the model hyperparameters by using GridSearch. However, tuning the model caused MSE to increase; therefore, we decided not to tune the model. This may be because of the fact that the model overfits to the training dataset as our dataset is not large enough.
