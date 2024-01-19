@@ -82,7 +82,9 @@ This metric was designed to quantify a student's level of engagement in the conv
 
 
 ### 2.3 Merging Features and Target Variable
---- 
+We merged the features and target variables for future use in model training and evaluation. To accomplish this, we initiated a data frame named "scores" by reading the CSV file "scores.csv," which contains the codes of ChatGPT and their corresponding grades. Following this, we conducted a sequence of left merge operations on the primary data frame, aligning it with additional data frames identified as important to the model (Question Mapping Scores, Number of Code Lines, Prompt Complexity Analysis, and Average Prompt per Question). This merging process was executed using the shared identifier "code" column for alignment. Then, we excluded features that exhibited negligible contribution to our model. At the final stage, to accomplish the objective of merging features and target variables, we merged the resulting data frame with the scores data frame based on common "grade" column.
+
+
 ## 3. Model Training and Evaluation
 
 We have tried different models in order to get the best results. These models were:
