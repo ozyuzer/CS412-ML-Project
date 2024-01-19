@@ -151,10 +151,16 @@ As it can be seen in the results, the best MSE score is achieved by using the mo
 Finally, we tried the tune the model hyperparameters by using GridSearch. However, tuning the model caused MSE to increase; therefore, we decided not to tune the model. This may be because of the fact that the model overfits to the training dataset as our dataset is not large enough.
 
 ### 4. Team Contributions 
-As a team, we regularly conducted meetings to determine the steps that we will take. Throughout this process, we committed to supporting each other as much as possible, ensuring that our progress was a collective effort. Although we distributed some tasks among the group; Creating the README file, updating the repository, adding features was collaborative effort. Despite the fact that everyone worked on almost every aspect of the project, below you can find spesific work of our team members: 
-  ---Baturalp Arslan Kabadayı, 29287: Creating the feature Number of Code Lines & Cells, Developing the model, Model Training and Evaluation, Data Visualization and Creating Plots. 
-  ---Deniz Özdemir, 29194: Creating the feature Number of Apologize words, Sentimental Analysis, Data Visualization and Creating Heat Map to understand the data 
-  ---Alkım Özyüzer, 29263: Creating the feature Average length of chatgpt responses per user, Understanding the Data and Data preparations
-  ---Nil Boyraz, 29251 : Creating the feature Zero Sum, Merging Features and Target Variable, Merging Scores with features, 
-  ---Görkem Afşin, 29180: Creating the Number of Prompts per Question & Average Number of Prompts per Question feature, Prompt Complexity Analysis, Feature Selection 
-  ---Eren Özdil, 29409: Creating Message Length Variability feature, Engagement Score Analysis, Feature Analysis
+As a team, we regularly conducted meetings to determine the steps that we will take. Throughout this process, we committed to supporting each other as much as possible, ensuring that our progress was a collective effort. Although we distributed some tasks among the group; Creating the README file, updating the repository, adding features was collaborative effort. Despite the fact that everyone worked on almost every aspect of the project, below you can find specific work of our team members: 
+
+  * Baturalp Arslan Kabadayı, 29287: Creating the feature Number of Code Lines & Cells, Developing the model, Model Training and Evaluation, Data Visualization and Creating Plots. 
+  
+  * Deniz Özdemir, 29194: Creating the feature Number of Apologize words, Sentimental Analysis, Data Visualization and Creating Heat Map to understand the data.
+  
+  * Alkım Özyüzer, 29263: Creating the feature Average Length of ChatgGPT responses per user, Understanding the Data and Data Preparations.
+  
+  * Nil Boyraz, 29251 : Creating the feature Zero Sum, Merging Features and Target Variable, Merging Scores with features.
+  
+  * Görkem Afşin, 29180: Creating the Number of Prompts per Question & Average Number of Prompts per Question feature, Prompt Complexity Analysis, Feature Selection.
+  
+  * Eren Özdil, 29409: Creating Message Length Variability feature, Engagement Score Analysis, Feature Analysis.
