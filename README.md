@@ -2,7 +2,7 @@
 ## 1. Reading the Data
 ## 2. Feature Engineering
 ###  - 2.1 Provided Features
-  In our grade prediction project, we initially included a variety of keywords like "error", "thank", "no", "next" and others as features, extracted from student chats with GPT-based tools. These were intended to reflect different aspects of student engagement and understanding. However, after thorough analysis, we found that some keywords were not strong indicators of academic performance and were actually contributing to increased model error. Consequently, we streamlined our feature set by dropping these less impactful keywords, focusing on those that more effectively predicted student grades.
+  Initially, we included a variety of keywords like "error", "thank", "no", "next" and others as features, extracted from student chats with GPT-based tools. These were intended to reflect different aspects of student engagement and understanding. However, after thorough analysis, we found that some keywords were not strong indicators of academic performance and were actually contributing to increased model error. Consequently, we streamlined our feature set by dropping these less impactful keywords, focusing on those that more effectively predicted student grades.
   
 ###  - 2.2 Custom Features
 #### :x: a. Number of Apologize Words
