@@ -23,7 +23,7 @@ In our predictive model for student grades, we initially considered the frequenc
 
 #### ✅ c. Prompt Complexity Analysis
 
-As you can see in the graph below, 
+As you can see in the graph below, ARAP ATI
 
 ![alt text](https://github.com/ozyuzer/cs412-ml-project/blob/main/plots/average_fk_grade_scatter_plot.png)
 
