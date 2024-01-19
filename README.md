@@ -58,8 +58,8 @@ As you can see in the graph below, ARAP ATI
 ![alt text](https://github.com/ozyuzer/cs412-ml-project/blob/main/plots/average_fk_grade_scatter_plot.png)
 
 
-#### ✅ d. Average Prompt per Question
-The main purpose of the feature “Prompt Ratio” was to capture the importance of the average number of prompts of each user by taking into account the prompt numbers of other users. This feature compares the average number of all the prompts with each user’s individual average number of prompts and demonstrates the relation. The idea behind this feature was that if the user’s average number of prompts differs from the total average number of promts, the probability that the user found the answer is getting lower in a similar ratio. Although the relation is important to compare, when we applied this feature to our model, it increased the mean square error of the model. Thus, we didnt include this feature to our best model.
+#### ✅ d. Prompt Ratio
+The main purpose of the feature “Prompt Ratio” was to capture the importance of the average number of prompts of each user by taking into account the prompt numbers of other users. This feature compares the average number of all the prompts with each user’s individual average number of prompts and demonstrates the relation. The idea behind this feature was that if the user’s average number of prompts differs from the total average number of promts, the probability that the user found the answer is getting lower in a similar ratio. When we examined the importance of this feature by introducing the graph of correlation of this feature with grade, we observed that the correlation is high. Although it seems that feature contributes to our model in a positive way, when we applied this feature to our model with other features, it increased the mean square error of the model. Thus, we didnt include this feature to our best model.
 
 #### :x: e. Sentiment Anaylisis
 
