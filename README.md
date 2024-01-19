@@ -60,20 +60,25 @@ As you can see in the graph below, ARAP ATI
 
 #### ✅ d. Average Prompt per Question
 
-#### :x: e. Sentiment Anaylisis
+
+#### :x: e. Prompt Ratio
+The main purpose of the feature “Prompt Ratio” was to capture the importance of the average number of prompts of each user by taking into account the prompt numbers of other users. This feature compares the average number of all the prompts with each user’s individual average number of prompts and demonstrates the relation. The idea behind this feature was that if the user’s average number of prompts differs from the total average number of promts, the probability that the user found the answer is getting lower in a similar ratio. When we examined the importance of this feature by introducing the graph of correlation of this feature with grade, we observed that the correlation is high. Although it seems that feature contributes to our model in a positive way, when we applied this feature to our model with other features, it increased the mean square error of the model. Thus, we didnt include this feature to our best model.
+
+#### :x: f. Zero
+
+
+#### :x: g. Sentiment Anaylisis
 
 We implemented sentiment analysis to enhance our prediction of student grades based on their chat interactions with GPT. We used TextBlob library for the implementation of sentiment analysis. This approach allows us to capture students' emotional responses, providing insights into their understanding and engagement with the subject matter. Positive sentiments often correlate with a better grasp of the content and a proactive learning attitude, while negative sentiments may indicate confusion or frustration. By integrating sentiment analysis, we aim to capture these subtle indicators of academic performance, making our predictive models more robust and nuanced. Although this tool is particularly valuable when combined with other analytical metrics, contributing to a comprehensive understanding of each student's learning experience, it was increasing the mean square error of our model. Hence, we did not included it as a feature in our best fit model.
 
-#### :x: f. Message Length Variability
+#### :x: h. Message Length Variability
 
 One of the features explored in our analysis was the "Message Length Variability," designed to capture the variability in the length of messages sent by users during their interactions with ChatGPT. This feature was computed as the standard deviation of the word count in each user's messages, with the intention of reflecting the consistency or variability in their query lengths. The hypothesis behind this feature was that a higher variability might indicate a user's struggle to articulate queries clearly or a varied range of query complexities, potentially correlating with their understanding of the material and, consequently, their grades. However, upon integration into our model, we observed an increase in the MSE. This outcome suggests that while intuitively appealing, the variability in message length did not positively contribute to predicting the homework grades in our specific dataset. This feature was ultimately not included in the final model but serves as an interesting avenue for understanding user interaction patterns.
 
-#### :x: g. Engagement Score
+#### :x: i. Engagement Score
 
 This metric was designed to quantify a student's level of engagement in the conversation with ChatGPT, based on several parameters: the frequency of messages sent by the user, the diversity of topics covered (as inferred from the range of unique words used), the average length of the user's messages, and the responsiveness score (calculated as the ratio of user messages to ChatGPT responses). The idea was that higher engagement, indicated by frequent, varied, and substantial messages, might correlate with a deeper exploration of the subject matter, potentially reflecting on the student's understanding and effort. However, contrary to our expectations, incorporating the Engagement Score into our model resulted in an increased MSE. This outcome suggested that the measure of engagement, as defined by us, did not effectively predict the grades in the context of our dataset. The feature was thus excluded from the final model. This instance highlights the complexity of capturing and quantifying student engagement and its impact on academic performance in a machine learning context.
 
-#### :x: f. Prompt Ratio
-The main purpose of the feature “Prompt Ratio” was to capture the importance of the average number of prompts of each user by taking into account the prompt numbers of other users. This feature compares the average number of all the prompts with each user’s individual average number of prompts and demonstrates the relation. The idea behind this feature was that if the user’s average number of prompts differs from the total average number of promts, the probability that the user found the answer is getting lower in a similar ratio. When we examined the importance of this feature by introducing the graph of correlation of this feature with grade, we observed that the correlation is high. Although it seems that feature contributes to our model in a positive way, when we applied this feature to our model with other features, it increased the mean square error of the model. Thus, we didnt include this feature to our best model.
 
 ### 2.3 Merging Features and Target Variable
 --- 
