@@ -70,6 +70,8 @@ One of the features explored in our analysis was the "Message Length Variability
 
 #### :x: g. Engagement Score
 
+This metric was designed to quantify a student's level of engagement in the conversation with ChatGPT, based on several parameters: the frequency of messages sent by the user, the diversity of topics covered (as inferred from the range of unique words used), the average length of the user's messages, and the responsiveness score (calculated as the ratio of user messages to ChatGPT responses). The idea was that higher engagement, indicated by frequent, varied, and substantial messages, might correlate with a deeper exploration of the subject matter, potentially reflecting on the student's understanding and effort. However, contrary to our expectations, incorporating the Engagement Score into our model resulted in an increased MSE. This outcome suggested that the measure of engagement, as defined by us, did not effectively predict the grades in the context of our dataset. The feature was thus excluded from the final model. This instance highlights the complexity of capturing and quantifying student engagement and its impact on academic performance in a machine learning context.
+
 ### 2.3 Merging Features and Target Variable
 --- 
 ## 3. Model Training and Evaluation
