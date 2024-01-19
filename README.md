@@ -53,7 +53,7 @@ In our predictive model for student grades, we initially considered the frequenc
 
 #### ✅ c. Prompt Complexity Analysis
 
-As you can see in the graph below, ARAP ATI
+This custom feature implements a Flesch-Kincaid (FK) complexity analysis on user prompts. The FK grade level is a readability index that gauges the relative complexity of text in English. It calculates an approximate U.S. school grade level needed for comprehension, with higher values indicating more complex language. In the context of this analysis, each data point links the intricacy of language used by ChatGPT to a student's academic performance, providing insights into whether interactions with more sophisticated linguistic structures from the AI correlate with better or worse student grades.
 
 ![alt text](https://github.com/ozyuzer/cs412-ml-project/blob/main/plots/average_fk_grade_scatter_plot.png)
 
