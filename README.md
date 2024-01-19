@@ -1,7 +1,7 @@
 # CS412 Course Project - _Can we predict HW grades from ChatGPT interactions?_
 
 _by_
-_Alkım Özyüzer, Baturalp Arslan Kabadayı, Görkem Afşin, Deniz Özdemir, Nil Boyraz, Eren Özdil_
+_Alkım Özyüzer, Baturalp Arslan Kabadayı, Görkem Afşin, Deniz Özdemir, Nil Boyraz and Eren Özdil_
 
 ## 1. Reading the Data
 
