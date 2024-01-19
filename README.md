@@ -66,6 +66,8 @@ We implemented sentiment analysis to enhance our prediction of student grades ba
 
 #### :x: f. Message Length Variability
 
+One of the features explored in our analysis was the "Message Length Variability," designed to capture the variability in the length of messages sent by users during their interactions with ChatGPT. This feature was computed as the standard deviation of the word count in each user's messages, with the intention of reflecting the consistency or variability in their query lengths. The hypothesis behind this feature was that a higher variability might indicate a user's struggle to articulate queries clearly or a varied range of query complexities, potentially correlating with their understanding of the material and, consequently, their grades. However, upon integration into our model, we observed an increase in the MSE. This outcome suggests that while intuitively appealing, the variability in message length did not positively contribute to predicting the homework grades in our specific dataset. This feature was ultimately not included in the final model but serves as an interesting avenue for understanding user interaction patterns.
+
 #### :x: g. Engagement Score
 
 ### 2.3 Merging Features and Target Variable
