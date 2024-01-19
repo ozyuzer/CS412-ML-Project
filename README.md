@@ -2,6 +2,33 @@
 
 ## 1. Reading the Data
 
+### Overview
+In this project, we aim to estimate student homework grades based on their interactions with ChatGPT. The data provided includes HTML files of ChatGPT conversations and a CSV file containing corresponding student grades.
+
+### Data Sources
+- **ChatGPT Conversations**: A collection of HTML files, each representing a student's conversation history with ChatGPT.
+- **Grades**: A CSV file named `scores.csv`, which contains student codes (to match with ChatGPT histories) and their respective grades.
+
+### Steps for Data Preparation
+
+#### a. Loading ChatGPT Conversations
+- We use Python's `glob` and `BeautifulSoup` libraries to read and parse the HTML files.
+- Each conversation is identified by a unique file code, which is used to map the conversation to the corresponding student's grade.
+- We extract relevant parts of the conversation, focusing on both the user's prompts and ChatGPT's responses. Special attention is given to code snippets exchanged in the conversation.
+- Conversations are filtered and cleaned, with a threshold set to exclude trivial interactions.
+
+#### b. Processing Conversation Content
+- Textual data from conversations are vectorized using TF-IDF (Term Frequency-Inverse Document Frequency) to convert the qualitative data into a quantitative form suitable for analysis.
+- Additional features are derived from the conversations, such as the average length of prompts/responses, the frequency of specific keywords, and sentiment analysis scores.
+
+#### c. Loading and Preparing Grades Data
+- The `scores.csv` file is read using the `pandas` library.
+- We clean and preprocess this data, ensuring the student codes in the grades file match those in the conversation data. This step is crucial for accurately mapping grades to ChatGPT interactions.
+
+#### d. Merging and Finalizing the Dataset
+- The processed conversation data and grades are merged based on the student codes.
+- This merged dataset is then used for further analysis, feature engineering, and model training.
+
 ## 2. Feature Engineering
 
 ### - 2.1 Provided Features
