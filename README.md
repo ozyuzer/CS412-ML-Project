@@ -51,7 +51,7 @@ In our predictive model for student grades, we initially considered the frequenc
 
 #### ✅ b. Number of Code Lines & Cells
 
-*give details here*
+The 'Number of Code Lines & Cells' feature represents the total count of lines of code and individual code cells provided by ChatGPT within a conversation. We decided to add this feature because the amount of code provided by ChatGPT is an important measure for this project, considering the homework is done by using ChatGPT, and matching the number of code lines with student grades can contribute a lot to our model. The scatter plot below illustrates the relationship between this feature and student grades, implicating for which intervals students tend to get higher or lower grades. Adding this feature to our model caused a decent amount of decrease in test MSE, indicating that there is a direct impact to the prediction abilities of our model.
 
 ![alt text](https://github.com/ozyuzer/cs412-ml-project/blob/main/plots/total_code_lines_scatter_plot.png)
 
