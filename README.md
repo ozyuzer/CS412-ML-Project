@@ -64,7 +64,8 @@ As you can see in the graph below, ARAP ATI
 #### :x: e. Prompt Ratio
 The main purpose of the feature “Prompt Ratio” was to capture the importance of the average number of prompts of each user by taking into account the prompt numbers of other users. This feature compares the average number of all the prompts with each user’s individual average number of prompts and demonstrates the relation. The idea behind this feature was that if the user’s average number of prompts differs from the total average number of promts, the probability that the user found the answer is getting lower in a similar ratio. When we examined the importance of this feature by introducing the graph of correlation of this feature with grade, we observed that the correlation is high. Although it seems that feature contributes to our model in a positive way, when we applied this feature to our model with other features, it increased the mean square error of the model. Thus, we didnt include this feature to our best model.
 
-#### :x: f. Zero
+#### :x: f. Zero Sum
+This feature calculates how many questions in total each user did not write any prompt for. We expected that there should be negative correlation between the number of zeros and the grade because each zero might mean that the user was not able to answer the question and recieve a grade for that question. (Here, number of zeros indicates the number of questions that user didnt write any prompt for). After assessing the significance of this particular feature by depicting its correlation graph with the grade, we noticed a substantial correlation. Despite the initial impression that this feature positively contributes to our model, its inclusion, when combined with other features, led to an increase in the mean square error of the model. Consequently, we decided to exclude this feature from our optimal model.
 
 
 #### :x: g. Sentiment Anaylisis
