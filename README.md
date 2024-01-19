@@ -16,7 +16,17 @@ In our predictive model for student grades, we initially considered the frequenc
 
 #### ✅ b. Number of Code Lines & Cells
 
+*give details here*
+
+![alt text](https://github.com/ozyuzer/cs412-ml-project/blob/main/plots/total_code_lines_scatter_plot.png)
+
+
 #### ✅ c. Prompt Complexity Analysis
+
+*Give details here*
+
+![alt text](https://github.com/ozyuzer/cs412-ml-project/blob/main/plots/average_fk_grade_scatter_plot.png)
+
 
 #### ✅ d. Average Prompt per Question
 
