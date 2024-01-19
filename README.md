@@ -23,7 +23,7 @@ In our predictive model for student grades, we initially considered the frequenc
 
 #### ✅ c. Prompt Complexity Analysis
 
-*Give details here*
+As you can see in the graph below, 
 
 ![alt text](https://github.com/ozyuzer/cs412-ml-project/blob/main/plots/average_fk_grade_scatter_plot.png)
 
@@ -87,9 +87,9 @@ In order to get the best results, we have wrote an automated script that would d
 * Threshold: 0.0917, #Features: 2, MSE: 128.31
 * Threshold: 0.2821, #Features: 1, MSE: 112.37
 
-- Best threshold: 0.023293254896998405
-- Best MSE: 40.984
-- Best R2 Score: 63.494%
+- Best threshold: **0.023293254896998405**
+- Best MSE: **40.984**
+- Best R2 Score: **63.494%**
 
 
 As it can be seen in the results, the best MSE score is achieved by using the most important 11 features. Thus, our final model only include these 11 features.
