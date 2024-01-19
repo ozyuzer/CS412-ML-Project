@@ -1,4 +1,4 @@
-# CS412 Course Project - Can we predict HW grades from ChatGPT interactions? 
+# CS412 Course Project - *Can we predict HW grades from ChatGPT interactions?* 
 ## 1. Reading the Data
 ## 2. Feature Engineering
 ###  - 2.1 Provided Features
